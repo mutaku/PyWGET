@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-## Guido's custom wget
+## Built upon Guido's custom wget
 
 import sys,urllib,math,os,time
 CURDIR = os.getcwd()
