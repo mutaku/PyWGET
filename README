@@ -1,28 +1,35 @@
-THIS IS A QUICK WGET ALTERNATIVE MODIFIED FROM AN EXAMPLE BY GUIDO VAN ROSSUM
+This is a quick wget alternative modified from an example by guido van rossum
 
-THE PROGRESS MONITOR [PROG.PY] IS BASED OFF AN EXCELLENT EXAMPLE IN THE PYTHON COOKBOOK FROM O'REILLY 
+The progress monitor [prog.py] is based off an excellent example in the python cookbook from o'reilly 
 
-EVERYTHING WORKS OFF STANDARD PYTHON MODULES INCLUDING URLLIB
+everything works off standard python modules including urllib
 
-WGET.PY AND PROG.PY SHOULD BE IN THE SAME DIRECTORY OR MAKE SURE YOU PUT PROG.PY IN YOUR PYTHON PATH
-
-TO INVOKE:
-
-	SINGLE FILE DOWNLOADING
-
-	$ ./wget.py http://example.com/myfile.tgz
-
-	MULTIPLE FILE DOWNLOADING
-
-	$ ./wget.py http://example.com/a.tgz http://example2.com/b.zip http://example.com/c.tgz
-
-FILES WILL BE DOWNLOADED TO THE CURRENT WORKING DIRECTORY
+wget.py and prog.py should be in the same directory or make sure you put prog.py in your python path
 
 
-CHANGES:
+Sources: http://books.google.com/books?id=1shx_vxs6ioc&dq=isbn:0596007973&ei=fpg-tog-cpkeygtstngnba
+code adapted and tweaked a bit from these recipes
+wget - introduction of network programming
+progress - 11.1
 
-	0.2 -
-		FILES WILL NOT BE OVERWRITTEN IF EXIST (ADDS A UNIX TIMESTAMP TO NAME IF ALREADY EXISTS)
+
+to invoke:
+
+        single file downloading
+
+        $ ./wget.py http://example.com/myfile.tgz
+
+        multiple file downloading
+
+        $ ./wget.py http://example.com/a.tgz http://example2.com/b.zip http://example.com/c.tgz
+
+files will be downloaded to the current working directory
 
 
-XIAO_HAOZI 10-8-2010 XIAO_HAOZI@MUTAKU.COM
+changes:
+
+        0.2 -
+                files will not be overwritten if exist (adds a unix timestamp to name if already exists)
+
+
+xiao_haozi 10-8-2010 xiao_haozi@mutaku.com
