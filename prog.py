@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-### Code adapted from http://code.activestate.com/recipes/299207-console-text-progress-indicator-class/
 import sys
 
 # setup the colors for the console display
