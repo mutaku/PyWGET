@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-## Built upon Guido's custom wget
+## Built upon Guido's custom wget ...
+##  added file size determination and monitoring of download that reports to animated progress bar
 
 import sys,urllib,math,os,time
 CURDIR = os.getcwd()
